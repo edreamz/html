@@ -1,3 +1,3 @@
-# Laravel Contribution Guide
+# Contribution Guide
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions). Please review the entire guide before sending a pull request.
+Please either open an issue or a pull request on Github as usual.

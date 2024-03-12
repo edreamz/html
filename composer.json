@@ -4,8 +4,8 @@
     "license": "MIT",
     "homepage": "https://laravelcollective.com",
     "support": {
-        "issues": "https://github.com/LaravelCollective/html/issues",
-        "source": "https://github.com/LaravelCollective/html"
+        "issues": "https://github.com/artkonekt/html/issues",
+        "source": "https://github.com/artkonekt/html"
     },
     "authors": [
         {
@@ -15,6 +15,9 @@
         {
             "name": "Taylor Otwell",
             "email": "taylorotwell@gmail.com"
+        },
+        {
+            "name": "Attila Fulop"
         }
     ],
     "require": {
@@ -39,9 +42,6 @@
         ]
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "6.x-dev"
-        },
         "laravel": {
             "providers": [
                 "Collective\\Html\\HtmlServiceProvider"
@@ -52,8 +52,8 @@
             }
         }
     },
-    "conflict": {
-        "laravelcollective/html": "*"
+    "replace": {
+        "laravelcollective/html": "^6.4"
     },
     "minimum-stability": "dev",
     "abandoned": "spatie/laravel-html",

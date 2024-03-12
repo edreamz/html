@@ -1,13 +1,45 @@
 # Laravel 11 Compatible Fork of the LaravelCollective Forms Package
 
-[![Build Status](https://travis-ci.org/LaravelCollective/html.svg)](https://travis-ci.org/LaravelCollective/html)
-[![Total Downloads](https://poser.pugx.org/LaravelCollective/html/downloads)](https://packagist.org/packages/laravelcollective/html)
-[![Latest Stable Version](https://poser.pugx.org/LaravelCollective/html/v/stable.svg)](https://packagist.org/packages/laravelcollective/html)
-[![Latest Unstable Version](https://poser.pugx.org/LaravelCollective/html/v/unstable.svg)](https://packagist.org/packages/laravelcollective/html)
+[![Backend Tests](https://img.shields.io/github/actions/workflow/status/artkonekt/html/tests.yml?branch=master&label=backend&style=flat-square)](https://github.com/artkonekt/html/actions?query=workflow%3Atests)
+[![Packagist Stable Version](https://img.shields.io/packagist/v/konekt/html.svg?style=flat-square&label=stable)](https://packagist.org/packages/konekt/html)
+[![Packagist downloads](https://img.shields.io/packagist/dt/konekt/html.svg?style=flat-square)](https://packagist.org/packages/konekt/html)
 [![License](https://poser.pugx.org/LaravelCollective/html/license.svg)](https://packagist.org/packages/laravelcollective/html)
 
-Official documentation for Forms & Html for The Laravel Framework can be found at the [LaravelCollective](https://laravelcollective.com/docs) website.
+This is a fork of the original LaravelCollective HTML package.
+It aims to serve as a drop-in replacement after the original package is no longer updated.
 
-## Replacement
+The only change this package brings is that it only support PHP 8.1+ and Laravel 10 & 11.
 
-If you're looking to replace this package due to it's retirement we recommend using [Shift](https://laravelshift.com/convert-laravelcollective-html-to-spatie-laravel-html)
+The rest of the functionality is identical with the original one.
+
+## Installation
+
+In your existing application's `composer.json` replace the reference of laravecollective/html to konekt/html:
+
+**Before:**
+
+```json
+{
+  "require": {
+    "laravelcollective/html": "^6.4"
+  }
+}
+```
+
+**After:**
+
+```json
+{
+  "require": {
+    "konekt/html": "^6.5"
+  }
+}
+```
+
+After the change, run:
+
+```bash
+composer update laravelcollective/html konekt/html
+``` 
+
+See the [Documentation](https://laravelcollective.com/docs) for usage details.
