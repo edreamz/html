@@ -14,32 +14,14 @@ The rest of the functionality is identical with the original one.
 
 ## Installation
 
-In your existing application's `composer.json` replace the reference of laravecollective/html to konekt/html:
-
-**Before:**
-
-```json
-{
-  "require": {
-    "laravelcollective/html": "^6.4"
-  }
-}
-```
-
-**After:**
-
-```json
-{
-  "require": {
-    "konekt/html": "^6.5"
-  }
-}
-```
-
-After the change, run:
+Run:
 
 ```bash
-composer update laravelcollective/html konekt/html
+composer require konekt/html:^6.5
 ``` 
 
-See the [Documentation](https://laravelcollective.com/docs) for usage details.
+This will replace your existing laravelcollective/html v6.4+ installation with this version:
+
+![Replace the package](/home/fulop/Documents/WebProjects/konekt/html/docs/replace.png)
+
+See the original [Documentation](https://laravelcollective.com/docs) for usage details.
