@@ -1,5 +1,5 @@
 {
-    "name": "laravelcollective/html",
+    "name": "konekt/html",
     "description": "HTML and Form Builders for the Laravel Framework",
     "license": "MIT",
     "homepage": "https://laravelcollective.com",
@@ -51,6 +51,9 @@
                 "Html": "Collective\\Html\\HtmlFacade"
             }
         }
+    },
+    "conflict": {
+        "laravelcollective/html": "*"
     },
     "minimum-stability": "dev",
     "abandoned": "spatie/laravel-html",
