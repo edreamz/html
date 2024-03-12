@@ -21,14 +21,12 @@ jobs:
         uses: shivammathur/setup-php@master
         with:
           php-version: ${{ matrix.php }}
-          extensions: mbstring, json, sqlite3
+          extensions: mbstring, json
           tools: composer:v2
       - name: Lock Package Versions
         run: |
           composer require "laravel/framework:${{ matrix.laravel }}.*" --no-update -v
       - name: Composer Install
-        run: composer install --prefer-dist --no-progress --no-interaction
-      - name: Create Database
-        run: mkdir -p database && touch database/database.sqlite
+        run: composer install --no-progress --no-interaction
       - name: Run Tests
         run: php vendor/bin/phpunit --testdox
