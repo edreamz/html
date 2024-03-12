@@ -1,9 +1,9 @@
 # Laravel 11 Compatible Fork of the LaravelCollective Forms Package
 
-[![Backend Tests](https://img.shields.io/github/actions/workflow/status/artkonekt/html/tests.yml?branch=master&label=backend&style=flat-square)](https://github.com/artkonekt/html/actions?query=workflow%3Atests)
+[![Tests](https://img.shields.io/github/actions/workflow/status/artkonekt/html/tests.yml?branch=master&label=tests&style=flat-square)](https://github.com/artkonekt/html/actions?query=workflow%3Atests)
 [![Packagist Stable Version](https://img.shields.io/packagist/v/konekt/html.svg?style=flat-square&label=stable)](https://packagist.org/packages/konekt/html)
 [![Packagist downloads](https://img.shields.io/packagist/dt/konekt/html.svg?style=flat-square)](https://packagist.org/packages/konekt/html)
-[![License](https://poser.pugx.org/LaravelCollective/html/license.svg)](https://packagist.org/packages/laravelcollective/html)
+[![MIT Software License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.txt)
 
 This is a fork of the original LaravelCollective HTML package.
 It aims to serve as a drop-in replacement after the original package is no longer updated.
