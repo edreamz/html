@@ -18,6 +18,9 @@ class FormBuilderTest extends PHPUnit\Framework\TestCase
      * @var FormBuilder
      */
     protected $formBuilder;
+    private $htmlBuilder;
+    private $viewFactory;
+    private $urlGenerator;
 
     /**
      * Setup the test environment.

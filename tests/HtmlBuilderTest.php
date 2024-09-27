@@ -9,6 +9,9 @@ use Mockery as m;
 
 class HtmlBuilderTest extends PHPUnit\Framework\TestCase
 {
+    private $htmlBuilder;
+    private $viewFactory;
+    private $urlGenerator;
 
     /**
      * Setup the test environment.
