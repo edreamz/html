@@ -22,6 +22,6 @@ composer require konekt/html:^6.5
 
 This will replace your existing laravelcollective/html v6.4+ installation with this version:
 
-![Replace the package](docs/replace.png)
+![Replace the package](docs/replace650.png)
 
 See the original [Documentation](https://laravelcollective.com/docs) for usage details.
