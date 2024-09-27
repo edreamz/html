@@ -1,7 +1,7 @@
 # Changelog
 
-## Unreleased
-#### 2024-XX-YY
+## 6.5.1
+#### 2024-09-27
 
 - Fixed deprecation notices for PHP 8.4
   - Removed the default value `$url = null` from the constructor of `HtmlBuilder`.
