@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+#### 2025-XX-YY
+
+- Added Laravel 12 compatibility
+
 ## 6.5.1
 #### 2024-09-27
 
